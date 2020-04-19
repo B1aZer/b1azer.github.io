@@ -23,6 +23,10 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
+`js
+var let j = 1;
+`
+
 [Link](url) and ![Image](src)
 ```
 
