@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How fast can you learn?
+title: How fast can we learn?
 ---
 
 In school I did not like to remember things. When I was told to learn
@@ -8,7 +8,7 @@ multiplication table, I thought - 'what a waste of time!'. Well, I was wrong in
 this case and sometimes I find it very helpful. But It appears that I did not
 like the multiplication table, but the process of remembering itself. And
 quite hones I still don't. The process of repeating some information n times is
-dull and unappealing to me.  Woudn't it be great if we could read information
+dull and unappealing to me. Wouldn't it be great if we could read information
 one time and remember it at once?
 
 It computer programming we have this notion of reusing code. We try to reuse our
@@ -29,8 +29,4 @@ commands on the input (algorithm), to receive a desired output. Our brain works
 in the same way. We have an input - resources, and goal - output. The brain work
 is to provide a set of commands to get to the output. What it has to do with
 learning?
-
-
-
-
 
