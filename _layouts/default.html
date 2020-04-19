@@ -16,7 +16,7 @@ layout: base
   {% endif %}
 
   {% if site.github.is_user_page %}
-  <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+  <!--<p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>-->
   {% endif %}
 
   {% if site.show_downloads %}
@@ -34,4 +34,6 @@ layout: base
 </section>
 <footer>
   <p><small>2020</small></p>
+  {% if site.github.is_project_page %}
+  {% endif %}
 </footer>
