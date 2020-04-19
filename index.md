@@ -2,4 +2,4 @@
 layout: default
 ---
 
-### [How fast can we learn?](./how-fast-can-we-learn.html)
+### [How fast can we learn?](posts/how-fast-can-we-learn.html)
