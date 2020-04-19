@@ -175,6 +175,11 @@ section {
   width:500px;
   float:right;
   padding-bottom:50px;
+
+  &.full {
+    width: auto;
+    float: none;
+  }
 }
 
 small {
