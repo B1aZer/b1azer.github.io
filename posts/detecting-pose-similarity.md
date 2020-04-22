@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Detecting pose similarity between two videos with JavaScript
 ---
 
@@ -9,12 +10,12 @@ the public. Pose estimation, or the ability to detect humans and their poses
 from the video data, is one of the most difficult tasks in machine learning.
 Although today there are at least 2 frameworks that can do it quite well:
 
-[![Audi R8](http://img.youtube.com/vi/vTC0QKR_uM0/0.jpg)](https://www.youtube.com/watch?v=vTC0QKR_uM0 "OpenPose")
+[![PoseNet](http://img.youtube.com/vi/vTC0QKR_uM0/0.jpg)](https://www.youtube.com/watch?v=vTC0QKR_uM0 "OpenPose")
 
 Let’s try to build a sample app that would take video as input and compare
 human pose with the pose in another video.
 
-A little background..
+## A little background
 
 I really like basketball and try to play it once in a
 while. But I’m not that good at shooting. Seriously, even small kids shoot
@@ -219,6 +220,8 @@ const pose = await this.net.estimateSinglePose(video, {
 ```
 
 And now the final result:
+
+![Result](https://gfycat.com/flimsyprestigiousjumpingbean)
 
 We could go even further. Use react native or Webview to create a mobile app, and analyze the video as soon as it’s uploaded. But the application that we built is a good first step.
 
