@@ -3,8 +3,6 @@ layout: post
 title: Detecting pose similarity between two videos with JavaScript
 ---
 
-## Intro
-
 Machine Leaning is on the rise. More and more frameworks become accessible to
 the public. Pose estimation, or the ability to detect humans and their poses
 from the video data, is one of the most difficult tasks in machine learning.
@@ -48,22 +46,20 @@ Let’s make a simple markup where we will compare 2 videos next to each other
    <fieldset disabled={!this.state.loaded}>
       <div className=”row”>
          <div className=”container”>
-            <video id=”video” width=”400" height=”400" muted controls style={{display: ‘none’}}>
-            <source src={this.state.src1} type=”video/mp4"/>
+            <video id=”video” width=”400" height=”400" muted controls style=\{{display: ‘none’}\}>
+              <source src={this.state.src1} type=”video/mp4"/>
             </video>
             <canvas id=”output” width=”400" height=”400"/>
             <div>
                <select
                   defaultValue={this.state.src1}
-                  onChange={e =>
-                  this.setState({ src1: e.target.value })}
-                  >
+                  onChange={e => this.setState({ src1: e.target.value })}>
                   {
-                  videoFiles.map(([filename, path]) => (
-                  <option key={path} value={path}>
-                     {filename}
-                  </option>
-                  ))
+                    videoFiles.map(([filename, path]) => (
+                    <option key={path} value={path}>
+                       {filename}
+                    </option>
+                    ))
                   }
                </select>
             </div>
@@ -72,16 +68,15 @@ Let’s make a simple markup where we will compare 2 videos next to each other
             <button onClick={this.doCompare}>Compare</button>
          </div>
          <div className=”container”>
-            <video id=”video2" width=”400" height=”400" muted controls style={{display: ‘none’}}>
-            <source src={this.state.src2} type=”video/mp4"/>
+            <video id=”video2" width=”400" height=”400" muted controls style=\{{display: ‘none’}\}>
+              <source src={this.state.src2} type=”video/mp4"/>
             </video>
             <canvas id=”output2" width=”400" height=”400"/>
             <div>
                <select
                   defaultValue={this.state.src2}
                   onChange={e =>
-                  this.setState({ src2: e.target.value })}
-                  >
+                  this.setState({ src2: e.target.value })}>
                   {
                   videoFiles.map(([filename, path]) => (
                   <option key={path} value={path}>
