@@ -225,8 +225,8 @@ Human Pose Estimation is an evolving discipline with opportunity for research ac
 
 ## Additional links
 
-Source code - https://github.com/B1aZer/CV-Posture-Sample/blob/master/react-app/src/
+1. [https://medium.com/tensorflow/move-mirror-an-ai-experiment-with-pose-estimation-in-the-browser-using-tensorflow-js-2f7b769f9b23](https://medium.com/tensorflow/move-mirror-an-ai-experiment-with-pose-estimation-in-the-browser-using-tensorflow-js-2f7b769f9b23)
+2. [https://towardsdatascience.com/human-pose-estimation-simplified-6cfd88542ab3](https://towardsdatascience.com/human-pose-estimation-simplified-6cfd88542ab3)
+3. [https://medium.com/tensorflow/tf-jam-shooting-hoops-with-machine-learning-7a96e1236c32](https://medium.com/tensorflow/tf-jam-shooting-hoops-with-machine-learning-7a96e1236c32)
 
-1. https://medium.com/tensorflow/move-mirror-an-ai-experiment-with-pose-estimation-in-the-browser-using-tensorflow-js-2f7b769f9b23
-2. https://towardsdatascience.com/human-pose-estimation-simplified-6cfd88542ab3
-3. https://medium.com/tensorflow/tf-jam-shooting-hoops-with-machine-learning-7a96e1236c32
+Source code - [https://github.com/B1aZer/CV-Posture-Sample/blob/master/react-app/src/](https://github.com/B1aZer/CV-Posture-Sample/blob/master/react-app/src/)
