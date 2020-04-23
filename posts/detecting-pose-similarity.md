@@ -46,7 +46,7 @@ Let’s make a simple markup where we will compare 2 videos next to each other
    <fieldset disabled={!this.state.loaded}>
       <div className=”row”>
          <div className=”container”>
-            <video id=”video” width=”400" height=”400" muted controls style=\{\{display: ‘none’\}\}>
+            <video id=”video” width=”400" height=”400" muted controls style=\{\{display: 'none'\}\}>
               <source src={this.state.src1} type=”video/mp4"/>
             </video>
             <canvas id=”output” width=”400" height=”400"/>
@@ -68,21 +68,20 @@ Let’s make a simple markup where we will compare 2 videos next to each other
             <button onClick={this.doCompare}>Compare</button>
          </div>
          <div className=”container”>
-            <video id=”video2" width=”400" height=”400" muted controls style=\{\{display: ‘none’\}\}>
+            <video id=”video2" width=”400" height=”400" muted controls style=\{\{display: 'none'\}\}>
               <source src={this.state.src2} type=”video/mp4"/>
             </video>
             <canvas id=”output2" width=”400" height=”400"/>
             <div>
                <select
                   defaultValue={this.state.src2}
-                  onChange={e =>
-                  this.setState({ src2: e.target.value })}>
+                  onChange={e => this.setState({ src2: e.target.value })}>
                   {
-                  videoFiles.map(([filename, path]) => (
-                  <option key={path} value={path}>
-                     {filename}
-                  </option>
-                  ))
+                    videoFiles.map(([filename, path]) => (
+                      <option key={path} value={path}>
+                         {filename}
+                      </option>
+                    ))
                   }
                </select>
             </div>
@@ -159,7 +158,7 @@ let i = 0;
 let allPoses = [];
 const pose = await this.net.estimateSinglePose(video, {
  flipHorizontal: true,
- decodingMethod: ‘single-person’
+ decodingMethod: 'single-person'
  });
  allPoses = allPoses.concat(pose);
  if (!video.paused) {
@@ -209,7 +208,7 @@ When we find a match we return it’s index and distance. Based on distance we c
 ```js
 const pose = await this.net.estimateSinglePose(video, {
  flipHorizontal: true,
- decodingMethod: ‘single-person’
+ decodingMethod: 'single-person'
 });
 ```
 
