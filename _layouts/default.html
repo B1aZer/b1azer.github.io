@@ -3,9 +3,9 @@ layout: base
 ---
 
 <header>
-  <h1>{{ site.title | default: site.github.repository_name }}</h1>
+  <h1 style="margin-bottom: 0;">{{ site.title | default: site.github.repository_name }}</h1>
 
-  <small>Personal blog</small>
+  <h5>Personal blog</h5>
 
   {% if site.logo %}
     <img src="{{site.logo | relative_url}}" alt="Logo" />
