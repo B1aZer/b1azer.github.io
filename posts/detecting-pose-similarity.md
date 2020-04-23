@@ -3,14 +3,14 @@ layout: post
 title: Detecting pose similarity between two videos with JavaScript
 ---
 
-Machine Leaning is on the rise. More and more frameworks become accessible to
+Machine Leaning is on the rise. More and more frameworks have become accessible to
 the public. Pose estimation, or the ability to detect humans and their poses
 from the video data, is one of the most difficult tasks in machine learning.
-Although today there are at least 2 frameworks that can do it quite well:
+Although today there are at least 2 frameworks that can do it quite well. See a comparison.
 
 [![PoseNet](http://img.youtube.com/vi/vTC0QKR_uM0/0.jpg)](https://www.youtube.com/watch?v=vTC0QKR_uM0 "OpenPose")
 
-Let’s try to build a sample app that would take video as input and compare
+Let’s try to build a sample app that would take a video as an input and compare
 human pose with the pose in another video.
 
 ## A little background
@@ -20,11 +20,11 @@ while. But I’m not that good at shooting. Seriously, even small kids shoot
 better than me. If I want to be a decent shooter, I’d have to improve. There
 are lots of training videos, that basically say the same thing — improve your
 posture. I could do it manually by shooting, taking video and comparing the
-video to the goal video. But that’s not a programmer way to do it. Instead
+video to the goal video. But that’s not an efficient way to do it. Instead
 let’s create an app that would automate this process.
 
-Our goal is to write JS application that would analyze provided video and
-compare it to the video of the NBA athlete Steph Curry.
+Our goal is to write JS application that would analyze provided video, extract pose movements and
+compare it to the pose movements of the NBA athlete Steph Curry.
 
 ## Getting started
 
