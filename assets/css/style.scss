@@ -6,3 +6,11 @@
 body {
   font-size: 16px;
 }
+
+a {
+  transition: color 0.3s ease-out;
+  &:hover {
+    font-weight: normal;
+  }
+}
+
