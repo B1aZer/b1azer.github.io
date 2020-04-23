@@ -161,7 +161,6 @@ const pose = await this.net.estimateSinglePose(video, {
  flipHorizontal: true,
  decodingMethod: ‘single-person’
  });
-
  allPoses = allPoses.concat(pose);
  if (!video.paused) {
   requestAnimationFrame(poseDetectionFrame);
