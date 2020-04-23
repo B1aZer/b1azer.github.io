@@ -6,6 +6,7 @@ layout: default
 
 [//]: # (### [Better SEO optimization](posts/better-seo-optimization.html))
 
+### [Detecting pose similarity with TensorFlow.js](posts/detecting-pose-similarity.html)
+
 ### [Can you be a good programmer without knowing Math?](posts/good-programmer-wo-math.html)
 
-### [Detecting pose similarity with TensorFlow.js](posts/detecting-pose-similarity.html)
