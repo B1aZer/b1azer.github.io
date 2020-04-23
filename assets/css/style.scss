@@ -9,6 +9,11 @@
 }
 
 @font-face {
+  font-family: open-sans;
+  src: url("assets/fonts/Open-Sans/OpenSans-Regular.ttf") format("opentype");
+}
+
+@font-face {
   font-family: source-serif-pro;
   src: url("assets/fonts/Source-Serif-Pro/SourceSerifPro-Regular.ttf") format("opentype");
 }
@@ -19,7 +24,11 @@ body {
   color: rgba(0, 0, 0, 0.84);
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1 {
+  font-family: open-sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2,h3,h4,h5,h6 {
   font-family: source-serif-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
