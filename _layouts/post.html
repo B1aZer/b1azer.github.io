@@ -6,9 +6,7 @@ layout: base
   <small>{{ page.date | date: "%-d %B %Y" }}</small>
   <h1>{{ page.title }}</h1>
   {% if page.tags %}
-  <div>
-    <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
-  </div>
+  <small style="float: right;"><em>{{ page.tags | join: "</em> - <em>" }}</em></small>
   {% endif %}
   <a href="../">back</a>
   <hr/>
