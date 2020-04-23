@@ -8,9 +8,12 @@
     src: url("assets/fonts/Kievit/KievitOT-Regular.otf") format("opentype");
 }
 
-body {
+body:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
   font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 16px;
+}
+
+body {
+  font-size: 18px;
   color: rgba(0, 0, 0, 0.84);
 }
 
