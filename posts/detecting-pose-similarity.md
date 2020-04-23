@@ -115,10 +115,9 @@ months developing the library, and ultimately released [PoseNet](https://medium.
 tool that allows any web developer to play with body-based interactions,
 entirely within the browser, no special cameras or C++/Python skills required.
 
-Posenet is a framework developed by Google. Or, to be more exact, is a model for
-Tensflow framework. See
-https://github.com/tensorflow/tfjs-models/tree/master/posenet. That’s exactly
-what we need for JS application
+Posenet is a framework developed by Google. Or, to be more exact, is a [model for
+Tensflow framework](https://github.com/tensorflow/tfjs-models/tree/master/posenet).
+That’s exactly what we need for JS application.
 
 Now that we have tool for pose detection, we need to compare the poses in each
 video. Let’s make things simple — we will compare poses by frame. The most
