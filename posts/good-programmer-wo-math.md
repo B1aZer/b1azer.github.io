@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Can you be a good programmer without knowing Math?
+tags: programming learning
 ---
 ## Preface
 

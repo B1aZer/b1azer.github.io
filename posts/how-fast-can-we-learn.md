@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How fast can we learn?
+tags: learning
 ---
 
 In school I did not like to remember things. When I was told to learn

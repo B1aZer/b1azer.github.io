@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Better SEO Optimization
+tags: seo
 ---
 
 ## Keyword research
