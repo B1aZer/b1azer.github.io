@@ -4,8 +4,18 @@
 @import "jekyll-theme-minimal";
 
 @font-face {
-    font-family: medium-content-serif-font;
-    src: url("assets/fonts/Kievit/KievitOT-Regular.otf") format("opentype");
+  font-family: medium-content-serif-font;
+  src: url("assets/fonts/Kievit/KievitOT-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'medium-content-serif-font';
+  src: url("assets/fonts/Kievit/KievitOT-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'source-serif-pro';
+  src: url("assets/fonts/Source-Serif-Pro/SourceSerifPro-Regular.ttf") format("opentype");
 }
 
 body {
@@ -15,8 +25,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
-  font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "source-serif-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 a {
