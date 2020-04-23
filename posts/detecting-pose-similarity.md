@@ -19,7 +19,7 @@ I really like basketball and try to play it once in a
 while. But I’m not that good at shooting. Seriously, even small kids shoot
 better than me. If I want to be a decent shooter, I’d have to improve. There
 are lots of training videos, that basically say the same thing — improve your
-posture. I could do it manually by shooting, taking video and comparing the
+posture. I could do it manually: by shooting, taking video and comparing the
 video to the goal video. But that’s not an efficient way to do it. Instead
 let’s create an app that would automate this process.
 
@@ -115,7 +115,7 @@ months developing the library, and ultimately released [PoseNet](https://medium.
 tool that allows any web developer to play with body-based interactions,
 entirely within the browser, no special cameras or C++/Python skills required.
 
-Posenet is a framework developed by Google. Or to be more exact is a model for
+Posenet is a framework developed by Google. Or, to be more exact, is a model for
 Tensflow framework. See
 https://github.com/tensorflow/tfjs-models/tree/master/posenet. That’s exactly
 what we need for JS application
@@ -129,7 +129,7 @@ application would not really be practical to use.
 
 More generic approach is to analyze goal video first, create a map of all poses
 and then search the similarities inside the map. The more matches we find, the
-more is resulting similarity. Now what is a match?
+higher the resulting similarity. Now what is a match?
 
 >A match is the image we return, based on the pose data we receive, when a user
 strikes a pose. When we talk about the ‘pose data’ coming out of PoseNet, we’re
@@ -203,7 +203,7 @@ When we have tree the search is as easy as.
  }
 ```
 
-When we find a match we return it’s index and distance. Based on distance we can determine the pose similarity, the shortest being the most accurate. The only thing that is left is to analyze the input video, which we can again do with:
+When we find a match we return it’s index and distance. Based on distance we can determine the pose similarity, the shortest being the most accurate. The only thing that is left is to analyze the input video, which we again can do with:
 
 ```js
 const pose = await this.net.estimateSinglePose(video, {
@@ -212,15 +212,15 @@ const pose = await this.net.estimateSinglePose(video, {
 });
 ```
 
-And now the final result:
+Now after all the hard work let's look at the final result.
 
 [![Result](https://thumbs.gfycat.com/FlimsyPrestigiousJumpingbean-mobile.jpg)](https://gfycat.com/flimsyprestigiousjumpingbean)
 
-We could go even further. Use react native or Webview to create a mobile app, and analyze the video as soon as it’s uploaded. But the application that we built is a good first step.
+We could go even further. Use react native or [Webview](https://developer.android.com/reference/android/webkit/WebView) to create a mobile app and analyze the video as soon as it’s uploaded. But the application that we built is a good first step.
 
 ## Conclusion
 
-Human Pose Estimation is an evolving discipline with opportunity for research across various fronts. Recently, there has been a noticeable trend in Human Pose Estimation of moving towards the use of deep learning, specifically CNN based approaches, due to their superior performance across tasks and datasets. One of the main reason for the success of deep learning is the availability of large amounts of training data, especially with the advent of the COCO and Human3.6M datasets.
+Human Pose Estimation is an evolving discipline with opportunity for research across various fronts. Recently, there has been a noticeable trend in Human Pose Estimation of moving towards the use of deep learning, specifically CNN based approaches, due to their superior performance across tasks and datasets. One of the main reasons for the success of deep learning is the availability of large amounts of training data, especially with the advent of the COCO and Human3.6M datasets.
 
 ## Additional links
 
