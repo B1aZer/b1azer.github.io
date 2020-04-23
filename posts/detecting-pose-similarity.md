@@ -215,10 +215,18 @@ const pose = await this.net.estimateSinglePose(video, {
 
 And now the final result:
 
-![Result](https://gfycat.com/flimsyprestigiousjumpingbean)
+[![Result](https://thumbs.gfycat.com/FlimsyPrestigiousJumpingbean-mobile.jpg)](https://gfycat.com/flimsyprestigiousjumpingbean)
 
 We could go even further. Use react native or Webview to create a mobile app, and analyze the video as soon as it’s uploaded. But the application that we built is a good first step.
 
 ## Conclusion
 
 Human Pose Estimation is an evolving discipline with opportunity for research across various fronts. Recently, there has been a noticeable trend in Human Pose Estimation of moving towards the use of deep learning, specifically CNN based approaches, due to their superior performance across tasks and datasets. One of the main reason for the success of deep learning is the availability of large amounts of training data, especially with the advent of the COCO and Human3.6M datasets.
+
+## Additional links
+
+Source code - https://github.com/B1aZer/CV-Posture-Sample/blob/master/react-app/src/
+
+1. https://medium.com/tensorflow/move-mirror-an-ai-experiment-with-pose-estimation-in-the-browser-using-tensorflow-js-2f7b769f9b23
+2. https://towardsdatascience.com/human-pose-estimation-simplified-6cfd88542ab3
+3. https://medium.com/tensorflow/tf-jam-shooting-hoops-with-machine-learning-7a96e1236c32
