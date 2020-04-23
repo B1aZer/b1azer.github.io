@@ -46,7 +46,7 @@ Let’s make a simple markup where we will compare 2 videos next to each other
    <fieldset disabled={!this.state.loaded}>
       <div className=”row”>
          <div className=”container”>
-            <video id=”video” width=”400" height=”400" muted controls style=\{{display: ‘none’}\}>
+            <video id=”video” width=”400" height=”400" muted controls style=\{\{display: ‘none’\}\}>
               <source src={this.state.src1} type=”video/mp4"/>
             </video>
             <canvas id=”output” width=”400" height=”400"/>
@@ -68,7 +68,7 @@ Let’s make a simple markup where we will compare 2 videos next to each other
             <button onClick={this.doCompare}>Compare</button>
          </div>
          <div className=”container”>
-            <video id=”video2" width=”400" height=”400" muted controls style=\{{display: ‘none’}\}>
+            <video id=”video2" width=”400" height=”400" muted controls style=\{\{display: ‘none’\}\}>
               <source src={this.state.src2} type=”video/mp4"/>
             </video>
             <canvas id=”output2" width=”400" height=”400"/>
