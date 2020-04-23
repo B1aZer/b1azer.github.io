@@ -8,13 +8,15 @@
     src: url("assets/fonts/Kievit/KievitOT-Regular.otf") format("opentype");
 }
 
-body:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
-  font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
 body {
+  font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.84);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 a {
