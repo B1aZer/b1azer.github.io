@@ -62,3 +62,13 @@ a {
     color: #267CB9;
   }
 }
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
