@@ -82,7 +82,8 @@ a {
   p {
     font-size: 16px;
   }
-  &::after {
+
+  .border::after {
     content: '';
     display: block;
     border-bottom: 3px solid red;
@@ -92,7 +93,8 @@ a {
     -webkit-transition: 1s ease;
     transition: 1s ease;
   }
-  &:hover::after {
+
+  .border:hover::after {
     width: 100%;
   }
 }
