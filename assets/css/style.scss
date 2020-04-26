@@ -78,6 +78,11 @@ a {
 .item {
   margin: 20px;
   padding: 20px;
+  box-shadow: 2px 400px 0px 0 cyan, 400px -2px 0px 0 cyan, -2px -400px 0px cyan, -400px 2px 0px 0 cyan;
+
+  &:hover {
+    box-shadow: 2px 0px 0px 0 cyan, 0px -2px 0px 0 cyan, -2px 0px 0px cyan, 0px 2px 0px 0 cyan;
+  }
 
   p {
     font-size: 16px;
