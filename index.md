@@ -4,7 +4,7 @@ layout: default
 
 [//]: # (### [WIP How fast can we learn?](posts/how-fast-can-we-learn.html))
 
-[//]: # (### [Better SEO optimization](posts/better-seo-optimization.html))
+### [Better SEO optimization](posts/better-seo-optimization.html)
 
 ### [Detecting pose similarity with TensorFlow.js](posts/detecting-pose-similarity.html)
 
