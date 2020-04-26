@@ -79,6 +79,7 @@ a {
   margin: 20px;
   padding: 20px;
   box-shadow: 2px 400px 0px 0 cyan, 400px -2px 0px 0 cyan, -2px -400px 0px cyan, -400px 2px 0px 0 cyan;
+  transition: box-shadow 0.6s ease-out;
 
   &:hover {
     box-shadow: 2px 0px 0px 0 cyan, 0px -2px 0px 0 cyan, -2px 0px 0px cyan, 0px 2px 0px 0 cyan;
