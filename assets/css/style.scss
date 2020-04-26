@@ -83,7 +83,7 @@ a {
     font-size: 16px;
   }
 
-  .border::before {
+  .border::after {
     content: '';
     display: block;
     border-bottom: 3px solid red;
@@ -94,7 +94,7 @@ a {
     transition: 1s ease;
   }
 
-  .border:hover::before {
+  .border:hover::after {
     width: 100%;
   }
 }
