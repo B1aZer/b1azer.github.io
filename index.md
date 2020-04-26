@@ -2,7 +2,7 @@
 layout: default
 ---
 
-### [WIP How fast can we learn?](posts/how-fast-can-we-learn.html)
+### [How fast can we learn? Part 1](posts/how-fast-can-we-learn.html)
 
 ### [Better SEO optimization](posts/better-seo-optimization.html)
 
