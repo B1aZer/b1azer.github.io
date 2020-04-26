@@ -74,3 +74,13 @@ a {
   flex-direction: column;
   flex: 1;
 }
+
+.item {
+  margin: 20px;
+  padding: 20px;
+
+  .p {
+    font-size: 16px;
+  }
+}
+
