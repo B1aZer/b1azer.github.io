@@ -73,10 +73,10 @@ Knowing that 2 is also a double, we probably don't need to remember anything her
 too. Now lets look at 8th row. Lets say we need to find out result 8 * 7. We know
 that it is equal to 8 + 8 + 8 + 8 + 8 + 8 + 8. That is rather hard to calculate. But
 we know that 8 is also 2 * 4, so 8 * 7 = 2 * 4 * 7 = (7 + 7) * 2 * 2 = (14 + 14)
-* 2 = 28 + 28 = 56. It seems we can rather easy return result of every n * n,
-* where n < 10, given we know addition and multiplication logic. Or on other
-    terms reusing addition results and applying multiplication algorithm.  If
-    that is the case, then we don't need to learn anything new.
+\* 2 = 28 + 28 = 56. It seems we can rather easy return result of every n * n,
+\* where n < 10, given we know addition and multiplication logic. Or on other
+terms reusing addition results and applying multiplication algorithm. If
+that is the case, then we don't need to learn anything new.
 
 You can say - "But that takes time! If I know that 7 * 8 equal to 56 I will give
 result right away!". That's fair. But when you memorize something you use capacity
@@ -97,19 +97,3 @@ The best thing is that we don't have to worry about it at all. Our brain will
 do all the work for us. And If so happens we've never used multiplication
 table, then we left with memory free of information we don't need and with much
 better mood!
-
-
-
-
-data -> instruction -> memory
-
-memory -> instructions -> data
-
-instructions for multiplication
-
-instructions for book
-
-instruction in general is just a game that we play with our mind. scientifically
-proved that games increase memory
-
-What about swithing tasks
