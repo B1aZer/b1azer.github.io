@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How fast can we learn? Part 1
-tags: memory
+tags: learning
 ---
 
 ## Preface
