@@ -1,5 +1,5 @@
 ---
-title: Pipes with promises in JavaScript
+title: Pipes with Promises in JavaScript
 layout: post
 tags: production note, javascript 
 ---

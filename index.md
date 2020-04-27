@@ -2,6 +2,8 @@
 layout: default
 ---
 
+### [Pipes with Promises in JavaScript](posts/pipes-with-promises.html)
+
 ### [How fast can we learn? Part 1](posts/how-fast-can-we-learn.html)
 
 ### [Better SEO optimization](posts/better-seo-optimization.html)
