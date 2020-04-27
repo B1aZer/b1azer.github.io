@@ -78,20 +78,19 @@ a {
 .item {
   margin: 20px;
   padding: 20px;
+  position: relative;
   //clip-path: polygon( calc(0% + 2px) calc(0% + 2px), calc(100% - 2px) calc(0% + 2px), calc(100% - 2px) calc(100% - 2px), calc(0% + 2px) calc(100% - 2px) );
 
   .border {
     //box-shadow: 390px 400px 0px 0 cyan, 400px -390px 0px 0 cyan, -390px -400px 0px cyan, -400px 390px 0px 0 cyan;
-    transition: box-shadow 0.6s ease-out;
+    //transition: box-shadow 0.6s ease-out;
+    height: 100%;
+    width: 100%;
+    position: absolute;
   }
 
   .border:hover {
     //box-shadow: 390px 0px 0px 0 cyan, 0px -390px 0px 0 cyan, -390px 0px 0px cyan, 0px 390px 0px 0 cyan;
-  }
-
-
-  p {
-    font-size: 16px;
   }
 
   .border::after {
@@ -102,13 +101,16 @@ a {
     position: absolute;
     right: 0;
     transform: translateX(100%);
-    -webkit-transition: 1s ease;
-    transition: 1s ease;
+    transition: 0.6s ease-out;
   }
 
   .border:hover::after {
-    width: 100%;
     transform: translateX(0);
   }
+
+  p {
+    font-size: 16px;
+  }
+
 }
 
