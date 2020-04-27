@@ -40,7 +40,7 @@ npm start
 
 Let’s make a simple markup where we will compare 2 videos next to each other
 
-![Compare App](https://miro.medium.com/max/700/1*C9t7uv8LOJ6NL1dtqUyi3g.png)
+![Compare App]({{ "/assets/img/detecting-1.png" }})
 
 ```html
 <div>
