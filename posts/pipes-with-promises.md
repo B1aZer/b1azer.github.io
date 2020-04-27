@@ -1,7 +1,7 @@
 ---
 title: Pipes with promises in JavaScript
 layout: post
-tags: memo, javascript 
+tags: production note, javascript 
 ---
 
 When I was working on our site I noticed that it has much more bugs related to
