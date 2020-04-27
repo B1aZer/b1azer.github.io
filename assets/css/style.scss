@@ -98,15 +98,17 @@ a {
     content: '';
     display: block;
     border-bottom: 3px solid red;
-    width: 0;
+    width: 100%;
     position: absolute;
     right: 0;
+    transform: translateX(100%);
     -webkit-transition: 1s ease;
     transition: 1s ease;
   }
 
   .border:hover::after {
     width: 100%;
+    transform: translateX(0);
   }
 }
 
