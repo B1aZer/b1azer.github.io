@@ -140,7 +140,7 @@ a separate function. Such construction has all advantages stated above.
 Debugging can be made as simple as .then(debug). Where `debug = (data) => {
 $log(data); return data; }`. JSDoc is used to define input/output types. But
 since type check is built in TypeScript it is not necessary.  Of course this
-concept does not prevent bugs that are introduced by programmers themselves,
+concept does not prevent bugs that are introduced by programmers themselves
 (by not imagining all cases for example). But I think it has the potential to
 reduce the number of subtle bugs, make state transition explicitly visible and
 code more readable. 
@@ -148,5 +148,5 @@ code more readable.
 There is one more advantage to using promises this way. The chain splits tasks into sub tasks.
 Each sub task is treated as microtask in JS (see this great article 
 [https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/). Meaning they will be executed separately but will have higher priority then timeout
-tasks. Libraries such as Vue use this technique internally to split execution
+tasks. Frameworks such as Vue.js use this technique internally to split execution
 into smaller chunks.
