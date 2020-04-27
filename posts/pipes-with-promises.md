@@ -4,7 +4,7 @@ layout: post
 tags: production note, javascript 
 ---
 
-When I was working on our site I noticed that it has much more bugs related to
+When I was working on one of the sites I noticed that it has much more bugs related to
 the front code compared to the back. This is partly because the front code base was larger (35.23%
 JavaScript, 30.29%  HTML, 26.30% Python, 7.97% CSS to be exact). But it also
 seemed because backend code was simpler. It did not have async events, did not
@@ -13,7 +13,7 @@ same result on the same input).
 
 Front code on the other hand was much more complex. It did not have any state
 management solutions, it was hard to predict the current state, as well as not
-possible to revert it. We were in the process of migrating from AngularJS to
+possible to revert it. The team were in the process of migrating from AngularJS to
 newest Angular. Most of the functions had side effects, in fact angular binding
 is based on shared state and mutation of this state. This approach is
 discouraged in modern frameworks like React, that favors immutability and
