@@ -95,9 +95,38 @@ the production code:
           vm.errors = extractErrors(data);
         });
     }
-    
+
+    /**
+     * getArrayOfInstructors
+     *
+     * Can be replaced with observable in Angular
+     *
+     * @param {Array} instructorsNew
+     * @param {Array} instructorsEmails
+     * @returns Promise that resolves to data or rejects to null
+     *
+     */
+    function getArrayOfInstructors(instructorsNew, instructorsEmails) {
+      return $q((res, rej) => {
+        const instructorsArr = (instructorsNew.filter(i => i.email));
+        instructorsArr.length
+          ? res({ instructorsArr, instructorsEmails })
+          : rej(null);
+      });
+    }
+
+    /**
+     * filterNewInstructors
+     *
+     * @param {Array} instructorsArr
+     * @param {Array} instructorsEmails
+     * @returns {Array}
+     */
+    function filterNewInstructors({ instructorsArr, instructorsEmails }) {
+      ...
+    }
     function instructorsUpdate() {
-    ...
+      ...
     }
 
 ```
