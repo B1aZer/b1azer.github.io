@@ -79,6 +79,7 @@ a {
   margin: 20px;
   padding: 20px;
   position: relative;
+  overflow: hidden;
   //clip-path: polygon( calc(0% + 2px) calc(0% + 2px), calc(100% - 2px) calc(0% + 2px), calc(100% - 2px) calc(100% - 2px), calc(0% + 2px) calc(100% - 2px) );
 
   .border {
