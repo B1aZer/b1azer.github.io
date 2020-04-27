@@ -1,11 +1,11 @@
 ---
 title: Pipes with promises in JavaScript
 layout: post
-tags: javascript, memo
+tags: memo, javascript 
 ---
 
 When I was working on our site I noticed that it has much more bugs related to
-the front code. This is partly because the front code base was larger (35.23%
+the front code compared to the back. This is partly because the front code base was larger (35.23%
 JavaScript, 30.29%  HTML, 26.30% Python, 7.97% CSS to be exact). But it also
 seemed because backend code was simpler. It did not have async events, did not
 use shared state, backend views are mostly pure (meaning they will return the
@@ -14,7 +14,7 @@ same result on the same input).
 Front code on the other hand was much more complex. It did not have any state
 management solutions, it was hard to predict the current state, as well as not
 possible to revert it. We were in the process of migrating from AngularJS to
-recent Angular. Most of the functions had side effects, in fact angular binding
+newest Angular. Most of the functions had side effects, in fact angular binding
 is based on shared state and mutation of this state. This approach is
 discouraged in modern frameworks like React, that favors immutability and
 managed state. 
@@ -40,7 +40,7 @@ the degree of cohesion between code, the more explicit the function becomes and
 the less it prone to errors. In functional programming sequential cohesion is
 natural. Each function works on input returned by preceding function. This
 concept (functional composition) is widely used in popular js libraries:
-lodash, ramba, RxJS and called pipe or chain. An example from RxJS:
+lodash, ramba, RxJS and called pipe (or chain). An example from RxJS:
 
 ```js
 
@@ -54,12 +54,15 @@ from([1,2,3,4,5,6])
 
 This concept is common for several reasons:
 
- -it explicitly states input, output and all actions -does not modify input
- -can eliminate or make side effects clearly visible -can deal with edge cases
- ([], null) -can handle async events -is easier to debug
+ - it explicitly states input, output and all actions
+ - does not modify input
+ - can eliminate or make side effects clearly visible
+ - can deal with edge cases ([], null)
+ - can handle async events
+ - is easier to debug
 
 We even can mimic this concept with promises. Here is an example from
-production code:
+the production code:
 
 ```js
 
@@ -92,6 +95,10 @@ production code:
           vm.errors = extractErrors(data);
         });
     }
+    
+    function instructorsUpdate() {
+    ...
+    }
 
 ```
 
@@ -101,17 +108,16 @@ promise with data for manipulation. If there is no data it rejects with null.
 Shared object (vm) is manipulated in the body of the function for visibility,
 while initial input never mutates. Edge cases and async rejects are catched in
 a separate function. Such construction has all advantages stated above.
-Debugging can be made as simple as .then(debug). Where debug = (data) => {
-$log(data); return data; }. JSDoc is used to define input/output types. But
-since type check is built in TypeScript it won’t be necessary.  Of course this
+Debugging can be made as simple as .then(debug). Where `debug = (data) => {
+$log(data); return data; }`. JSDoc is used to define input/output types. But
+since type check is built in TypeScript it is not necessary.  Of course this
 concept does not prevent bugs that are introduced by programmers themselves,
 (by not imagining all cases for example). But I think it has the potential to
 reduce the number of subtle bugs, make state transition explicitly visible and
 code more readable. 
 
-This chain also splits tasks into sub tasks. Each sub task is treated as
-microtask in JS (see
-https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/). Meaning
-it will be executed separately but will have higher priority then timeout
+There is one more advantage to using promises this way. The chain splits tasks into sub tasks.
+Each sub task is treated as microtask in JS (see this great article 
+[https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/). Meaning they will be executed separately but will have higher priority then timeout
 tasks. Libraries such as Vue use this technique internally to split execution
 into smaller chunks.
