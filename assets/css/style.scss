@@ -91,17 +91,16 @@ a {
     height: 100%;
     width: 100%;
     position: absolute;
-
-    border-bottom: 1px solid #494949;
-    right: 0;
     transition: 0.6s ease-out;
     &.right {
+      right: 0;
+      border-right: 1px solid #494949;
       transform: translateX(100%);
     }
   }
 
   .border {
-    &.right {
+    &.right:hover {
       transform: translateX(0);
     }
   }
