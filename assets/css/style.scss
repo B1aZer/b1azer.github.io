@@ -91,17 +91,16 @@ a {
     height: 100%;
     width: 100%;
     position: absolute;
+    border-color: #494949;
+    border-style: solid;
     transition: 0.6s ease-out;
     &.right {
       right: 0;
-      border-right: 1px solid #494949;
-      transform: translateX(100%);
+      border-width: 1px;
+      transform: translateY(100%);
     }
-  }
-
-  .border {
     &.right:hover {
-      transform: translateX(0);
+      transform: translateY(0);
     }
   }
 
