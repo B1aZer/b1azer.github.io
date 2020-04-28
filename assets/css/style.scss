@@ -91,8 +91,18 @@ a {
     height: 100%;
     width: 100%;
     position: absolute;
+
+    border-bottom: 1px solid #494949;
+    right: 0;
+    transform: translateX(100%);
+    transition: 0.6s ease-out;
   }
 
+  .border:hover {
+    transform: translateX(0);
+  }
+
+  /*
   .border:hover {
     //box-shadow: 390px 0px 0px 0 cyan, 0px -390px 0px 0 cyan, -390px 0px 0px cyan, 0px 390px 0px 0 cyan;
   }
@@ -100,7 +110,7 @@ a {
   .border::after {
     content: '';
     display: block;
-    border-bottom: 3px solid red;
+    border-bottom: 1px solid #494949;
     width: 100%;
     position: absolute;
     right: 0;
@@ -111,6 +121,7 @@ a {
   .border:hover::after {
     transform: translateX(0);
   }
+  */
 
   p {
     font-size: 16px;
