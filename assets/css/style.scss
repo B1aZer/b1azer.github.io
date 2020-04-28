@@ -77,10 +77,13 @@ a {
 
 .item {
   margin: 20px;
-  padding: 20px;
   position: relative;
   overflow: hidden;
   //clip-path: polygon( calc(0% + 2px) calc(0% + 2px), calc(100% - 2px) calc(0% + 2px), calc(100% - 2px) calc(100% - 2px), calc(0% + 2px) calc(100% - 2px) );
+
+  .inner {
+    padding: 20px;
+  }
 
   .border {
     //box-shadow: 390px 400px 0px 0 cyan, 400px -390px 0px 0 cyan, -390px -400px 0px cyan, -400px 390px 0px 0 cyan;
