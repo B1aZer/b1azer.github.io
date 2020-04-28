@@ -94,12 +94,16 @@ a {
 
     border-bottom: 1px solid #494949;
     right: 0;
-    transform: translateX(100%);
     transition: 0.6s ease-out;
+    &.right {
+      transform: translateX(100%);
+    }
   }
 
-  .border:hover {
-    transform: translateX(0);
+  .border {
+    &.right {
+      transform: translateX(0);
+    }
   }
 
   /*
