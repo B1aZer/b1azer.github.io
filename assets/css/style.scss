@@ -115,7 +115,7 @@ a {
       bottom: 0;
       height: 100%;
       border-bottom: 3px;
-      transform: translateX(100%);
+      transform: translateX(-100%);
     }
     &.left::after {
       left: 0;
@@ -131,16 +131,10 @@ a {
   }
 
   &:hover {
-    .top::after {
+    .top::after, .bottom::after {
       transform: translateX(0);
     }
-    .right::after {
-      transform: translateY(0);
-    }
-    .top::after {
-      transform: translateX(0);
-    }
-    .left::after {
+    .right::after, .left::after {
       transform: translateY(0);
     }
   }
@@ -150,4 +144,3 @@ a {
   }
 
 }
-
