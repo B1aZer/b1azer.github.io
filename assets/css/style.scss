@@ -116,7 +116,7 @@ a {
     }
     &.bottom::after {
       bottom: 0;
-      height: 100%;
+      width: 100%;
       border-bottom: 3px;
       transform: translateX(-100%);
     }
