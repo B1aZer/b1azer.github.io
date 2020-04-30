@@ -142,8 +142,19 @@ a {
     }
   }
 
+  h3 {
+    margin: 20px 0;
+  }
+
   p {
     font-size: 16px;
+  }
+
+  img {
+    display: inline-block;
+    max-height: 120px;
+    background-size: cover;
+    margin: 0 auto;
   }
 
 }
