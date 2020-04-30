@@ -105,6 +105,7 @@ a {
       right: 0;
       height: 100%;
       border-right: 1px solid #494949;
+      transform: translateY(100%);
     }
     /*
     &:hover {
@@ -118,6 +119,12 @@ a {
       box-shadow: 390px 0px 0px 0 cyan, 0px -390px 0px 0 cyan, -390px 0px 0px cyan, 0px 390px 0px 0 cyan;
     }
     */
+  }
+
+  &:hover {
+    &.right::after {
+      transform: translateY(0);
+    }
   }
 
   p {
