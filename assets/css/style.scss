@@ -98,7 +98,7 @@ a {
       content: '';
       display: block;
       position: absolute;
-      transition: 0.6s ease-out;
+      transition: 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
       border-style: solid;
       border-color: #267CB9;
     }
