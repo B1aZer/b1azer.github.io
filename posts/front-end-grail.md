@@ -2,6 +2,8 @@
 title: Do we actually need backend?
 ---
 
+We always looking for grail. Css grail. Seo grail. And so on.
+
 It seems all techologies now migrated to front end. Or the browser. Soon enough we won't
 need operating systems. Everything will be availabe from the browser. Or probably galsses.
 Search system now understand js code and site is full written with js (css, html).
@@ -34,6 +36,9 @@ user. If we need to get some private information we can abstracact with separate
 API.
 
 How to define admin user that ables to get all information? Storage has to define roles
-and allow access based on roles.
+and allow access based on roles. Admin user can write db with his private key.
 
 Does this method has any drawbacks or security flaws?
+
+Can we use blockchain to decentrilize db storage? Can we use smart contracts
+for role distribution, validation?
