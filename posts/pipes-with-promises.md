@@ -2,6 +2,7 @@
 title: Pipes with Promises in JavaScript
 layout: post
 tags: production note, javascript 
+date: 2020-04-28 10:30:00 -0400
 ---
 
 When I was working on one of the sites I noticed that it has much more bugs related to

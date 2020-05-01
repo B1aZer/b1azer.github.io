@@ -14,5 +14,8 @@ layout: base
   {{content}}
 
   <hr/>
+  {% if page.date %}
+  <small style="float: right; line-height: 30px;"><em>{{ page.date }}</em></small>
+  {% endif %}
   <a href="../"><i class="fa fa-arrow-circle-left"></i></a>
 </section>
