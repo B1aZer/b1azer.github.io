@@ -2,6 +2,7 @@
 layout: post
 title: Can you be a good programmer without knowing Math?
 tags: programming learning
+date: 2018-10-28 09:00:00 -0400
 ---
 ## Preface
 

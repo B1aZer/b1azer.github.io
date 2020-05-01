@@ -2,6 +2,7 @@
 layout: post
 title: How fast can we learn? Part 1
 tags: learning
+date: 2020-02-29 15:00:00 -0400
 ---
 
 ## Preface
