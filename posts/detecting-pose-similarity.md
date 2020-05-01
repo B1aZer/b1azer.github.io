@@ -2,6 +2,7 @@
 layout: post
 title: Detecting pose similarity between two videos with JavaScript
 tags: programming javascript machine-learning
+date: 2019-06-01 12:00:00 -0400
 ---
 
 Machine Leaning is on the rise. More and more frameworks have become accessible to
