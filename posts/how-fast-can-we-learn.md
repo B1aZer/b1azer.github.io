@@ -98,3 +98,12 @@ The best thing is that we don't have to worry about it at all! Our brain will
 do all the work for us. And If so happens we've never used multiplication
 table, then we left with memory free of information we don't need and with much
 better mood!
+
+This process is called interference. There is retroactive interference, when
+learning new information makes it harder to recall old information and
+proactive interference, where prior learning disrupts recall of new
+information. Although interference can lead to forgetting, it is important to
+keep in mind that there are situations when old information can facilitate
+learning of new information. Knowing Latin, for instance, can help an
+individual learn a related language such as French – this phenomenon is known
+as positive transfer.
