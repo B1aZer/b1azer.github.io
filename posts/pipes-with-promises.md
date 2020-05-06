@@ -148,6 +148,6 @@ code more readable.
 
 There is one more advantage to using promises this way. The chain splits tasks into sub tasks.
 Each sub task is treated as microtask in JS (see this great article 
-[https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/). Meaning they will be executed separately but will have higher priority then timeout
+[https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)). Meaning they will be executed separately but will have higher priority then timeout
 tasks. Frameworks such as Vue.js use this technique internally to split execution
 into smaller chunks.
