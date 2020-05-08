@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Dmitrii Branitskii
+title: Dmitrii Branitskii Personal Blog
 ---
 
 ### [How fast can we learn? Part 1](posts/how-fast-can-we-learn.html)
