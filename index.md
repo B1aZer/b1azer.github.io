@@ -3,6 +3,8 @@ layout: default
 title: Dmitrii Branitskii
 ---
 
+### [Monty Hall Probability](posts/monty-hall-probability.html)
+
 ### [How fast can we learn? Part 1](posts/how-fast-can-we-learn.html)
 
 ### [Better SEO optimization](posts/better-seo-optimization.html)
