@@ -137,9 +137,8 @@ There are 2 factors we should keep in mind when calculating probability:
 Even with 2 items left we have to account for all the previous tries. And when
 we start with 50 items, sticking will be 1/50. We still end up with 2 items, but
 sticking prohibits the switching on last step and the probability is still 1/50.
-Which in turn means that my initial assumption was wrong.
+Which in turn means that my initial assumption was incorrect.
 
 Now lets return to original statement of the question in the problem: "Is it
-to your advantage to switch your choice?" Yes, because as we dissected above,
-rules of the games are implicit and favors particular outcome.
-
+to your advantage to switch your choice?" Yes, because as we deduced above,
+rules of this game favor particular outcome.
