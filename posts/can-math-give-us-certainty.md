@@ -1,5 +1,7 @@
 ---
-Title: Can Math give us certanty?
+layout: post
+title: Can Math give us certanty?
+date: 2020-05-15 18:30:00 -0400
 ---
 
 It was said that Mathematics is an objective science which can give us exact
