@@ -17,16 +17,17 @@ the surface of the earth?
 
 We know that object have gravity acceleration of 9.8 m/s^2.
 
-![Kinematic equation]({{ "assets/img/kinematic_equation.jpg" }})
+![Kinematic equation]({{ "/assets/img/kinematic_equation.jpg" }})
 
 Given the formula from kinematic equation t = sqrt( 2 * d / g) = sqrt( 2 / 9.8
-) = 0.4518 s. But when we take actual brick and drop from the 1 m distance we
-can see that actual time differs from theoretic time in tens of thousands of a
-second.  We can then say that we did not count up for air the resistance. We
-should know density of the air - 1.2 kg/m^3, cross sectional area of the brick
-A (10 cm x 30 cm x 15 cm = 300 + 300 + 150 + 150 + 450 + 450 = 1 800 cm^2),
-drag coefficient (0.82 for a brick), magnitude of the velocity squared (the
-faster you go the greater the air resistance force).
+) = 0.4518 s. But when we take actual brick and drop it from the 1 m distance, we
+can see that actual time differs from formal time in tens of thousands of a
+second. We can then say that we did not count up for air resistance.
+
+Given density of the air - 1.2 kg/m^3, cross sectional area of the brick
+A  - 10 cm x 30 cm x 15 cm = 300 + 300 + 150 + 150 + 450 + 450 = 1 800 cm^2,
+drag coefficient  - 0.82 for a brick and magnitude of the velocity squared (the
+faster you go the greater the air resistance force). We can calculate time 
 
 But even now we can see that actualt time can differ from formal time. Since we can't test
 in vacuum, we have to account for factors sach as wind, surface flatness, longatitude and
