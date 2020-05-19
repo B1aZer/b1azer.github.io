@@ -9,13 +9,15 @@ results if it has the data. Mathematics implies that our world is deterministic
 and we can receive any answer for any question if we have the formula. But is
 that really so?
 
+## Experiment
+
 Let's try to make a simple experiment. We have a 1 kg brick. It falls from
 the distance of 1 m.  How much time it will take for the brick to land on
 the surface of the earth?
 
 We know that object have gravity acceleration of 9.8 m/s^2.
 
-!(Kinematic equation)[{{ "assets/img/kinematic_equation.jpg" }}]
+![Kinematic equation]({{ "assets/img/kinematic_equation.jpg" }})
 
 Given the formula from kinematic equation t = sqrt( 2 * d / g) = sqrt( 2 / 9.8
 ) = 0.4518 s. But when we take actual brick and drop from the 1 m distance we
