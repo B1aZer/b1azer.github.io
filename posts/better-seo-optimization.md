@@ -2,7 +2,7 @@
 layout: post
 title: Better SEO Optimization
 tags: seo
-date: 2020-04-15 18:30:00 -0400
+date: 2019-04-15 18:30:00 -0400
 ---
 
 ## Keyword research
